@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="aspect-[3/4] overflow-hidden relative">
               <img
-                src="https://images.unsplash.com/photo-1554046920-90dcac0536d1?q=80&w=1000&auto=format&fit=crop"
+                src="https://unsplash.com/photos/woman-wearing-brown-jacket-68QYgnKuumQ"
                 alt="Mobarak Faisal"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"

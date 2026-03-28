@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://www.facebook.com/photo/?fbid=4122293974723920&set=pcb.4122294004723917"
+          src="https://unsplash.com/photos/a-woman-wearing-sunglasses-holding-a-cell-phone-to-her-ear-1nLTyduE1cY"
           alt="Fashion Editorial"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
