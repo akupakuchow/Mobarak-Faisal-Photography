@@ -47,11 +47,11 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <p className="text-xs uppercase tracking-widest text-mf-white/40 mb-1">Email</p>
-                <a href="mailto:booking@mobarakfaisal.com" className="text-lg hover:text-mf-accent transition-colors">booking@mobarakfaisal.com</a>
+                <a href="mailto:booking@mobarakfaisal.com" className="text-lg hover:text-mf-accent transition-colors">Contact@mobarakfaisal.com</a>
               </div>
               <div>
                 <p className="text-xs uppercase tracking-widest text-mf-white/40 mb-1">Studio</p>
-                <p className="text-lg">Paris / London / Dubai</p>
+                <p className="text-lg">Dhaka - Bangladesh</p>
               </div>
             </div>
           </motion.div>
