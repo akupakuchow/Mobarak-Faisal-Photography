@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2000&auto=format&fit=crop"
+          src="https://drive.google.com/drive/folders/1yxm2IKaRfP5kJUAMAZC5SgOaxyoHxKD4"
           alt="Fashion Editorial"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
