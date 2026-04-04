@@ -12,7 +12,7 @@ export default function CTA() {
     <section className="py-32 relative overflow-hidden bg-mf-black flex items-center justify-center text-center">
       <div className="absolute inset-0 z-0 opacity-20">
         <img 
-          src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?q=80&w=2000&auto=format&fit=crop" 
+          src="Img\8.jpg" 
           alt="Background" 
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"

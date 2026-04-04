@@ -4,20 +4,20 @@ const services = [
   {
     title: "Fashion Shoot",
     desc: "High-end editorial photography for models, agencies, and independent designers looking to build a premium portfolio.",
-    price: "From $1,500",
-    img: "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?q=80&w=800&auto=format&fit=crop"
+    price: "From ৳30,000",
+    img: "Img/4.jpg"
   },
   {
     title: "Brand Campaign",
     desc: "Comprehensive visual storytelling for fashion brands. Includes creative direction, lighting design, and full commercial usage rights.",
-    price: "From $4,500",
-    img: "https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop"
+    price: "From ৳45,000",
+    img: "Img/1.jpg"
   },
   {
     title: "Editorial Project",
     desc: "Magazine-style narrative shoots. Perfect for publications, lookbooks, and avant-garde fashion storytelling.",
-    price: "Custom Quote",
-    img: "https://images.unsplash.com/photo-1550614000-4b95d466f1d1?q=80&w=800&auto=format&fit=crop"
+    price: "From ৳35,000",
+    img: "Img/6.jpg"
   }
 ];
 
@@ -53,9 +53,9 @@ export default function Services() {
               className="group border border-mf-white/10 bg-mf-black hover:border-mf-accent/50 transition-colors duration-500 flex flex-col"
             >
               <div className="aspect-[4/3] overflow-hidden">
-                <img 
-                  src={service.img} 
-                  alt={service.title} 
+                <img
+                  src={service.img}
+                  alt={service.title}
                   className="w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
@@ -67,7 +67,7 @@ export default function Services() {
                 </p>
                 <div className="flex items-center justify-between mt-auto pt-6 border-t border-mf-white/10">
                   <span className="text-mf-accent text-sm tracking-widest uppercase">{service.price}</span>
-                  <button 
+                  <button
                     onClick={() => scrollTo('#contact')}
                     className="text-xs uppercase tracking-widest hover:text-mf-accent transition-colors"
                   >

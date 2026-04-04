@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
 
 const portfolioItems = [
-  { id: 1, category: 'Fashion', img: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1000&auto=format&fit=crop', title: 'Vogue Summer' },
-  { id: 2, category: 'Editorial', img: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1000&auto=format&fit=crop', title: 'Urban Shadows' },
-  { id: 3, category: 'Commercial', img: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1000&auto=format&fit=crop', title: 'Gucci FW24' },
-  { id: 4, category: 'Fashion', img: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop', title: 'Neon Nights' },
-  { id: 5, category: 'Editorial', img: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1000&auto=format&fit=crop', title: 'Desert Rose' },
-  { id: 6, category: 'Commercial', img: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1000&auto=format&fit=crop', title: 'Chanel Beauty' },
+  { id: 1, category: 'Fashion', img: 'Img/1.jpg', title: 'Vogue Summer' },
+  { id: 2, category: 'Editorial', img: 'Img/2.jpg', title: 'Urban Shadows' },
+  { id: 3, category: 'Commercial', img: 'Img/3.jpg', title: 'Gucci FW24' },
+  { id: 4, category: 'Fashion', img: 'Img/4.jpg', title: 'Neon Nights' },
+  { id: 5, category: 'Editorial', img: 'Img/5.jpg', title: 'Desert Rose' },
+  { id: 6, category: 'Commercial', img: 'Img/6.jpg', title: 'Chanel Beauty' },
 ];
 
 const categories = ['All', 'Fashion', 'Editorial', 'Commercial'];

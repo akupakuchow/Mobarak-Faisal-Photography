@@ -10,10 +10,10 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="text-mf-white/50 hover:text-mf-accent transition-colors" aria-label="Instagram">
+          <a href="https://www.instagram.com/mobarakfaisal_ph?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-mf-white/50 hover:text-mf-accent transition-colors" aria-label="Instagram">
             <Instagram size={20} />
           </a>
-          <a href="#" className="text-mf-white/50 hover:text-mf-accent transition-colors" aria-label="WhatsApp">
+          <a href="https://api.whatsapp.com/send?phone=8801744101970" className="text-mf-white/50 hover:text-mf-accent transition-colors" aria-label="WhatsApp">
             <MessageCircle size={20} />
           </a>
         </div>

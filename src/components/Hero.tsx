@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://unsplash.com/photos/a-woman-wearing-sunglasses-holding-a-cell-phone-to-her-ear-1nLTyduE1cY"
+          src="Img\Cover.png"
           alt="Fashion Editorial"
           className="w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-20">
         <motion.p
-          className="text-mf-accent uppercase tracking-[0.3em] text-sm md:text-base mb-6"
+          className="text-mf-white uppercase tracking-[0.3em] text-sm md:text-base mb-6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
